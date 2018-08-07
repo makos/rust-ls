@@ -18,7 +18,6 @@ impl Options {
         // If no path or switches specified, app defaults to current directory.
         let mut all_files = false;
         let mut help = false;
-        let newline = false;
         let mut path = String::from("./");
 
         // [1..] to skip the app name which has index 0.
