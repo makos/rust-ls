@@ -137,7 +137,7 @@ fn print_dir(newline: bool, dir: &str) {
     }
 }
 
-/// Print out directory (filepath with `/` at the end).
+/// Print out file name.
 ///
 /// # Example
 ///
